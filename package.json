@@ -1,0 +1,39 @@
+{
+    "name": "mcp-api-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-sse": "ts-node src/sse/index.ts",
+        "start-httpStream": "ts-node src/httpStream/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sanathshetty444/MCP-API-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/sanathshetty444/MCP-API-server/issues"
+    },
+    "homepage": "https://github.com/sanathshetty444/MCP-API-server#readme",
+    "devDependencies": {
+        "@types/express": "^5.0.2",
+        "@types/node": "^22.15.19",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3",
+        "@types/cors": "^2.8.17"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "@modelcontextprotocol/sdk": "^1.11.3",
+        "cors": "^2.8.5",
+        "fs": "^0.0.1-security",
+        "path": "^0.12.7",
+        "zod": "^3.22.4"
+    }
+}
